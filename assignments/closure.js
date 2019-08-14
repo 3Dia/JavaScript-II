@@ -1,7 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
-
+function welcome(){
+  const student = 'Sarah';
+  function introduce(){
+    return 'Please welcome our new student, ' + student + ' to the class, everyone!'
+  }
+  return introduce();
+}
+console.log(welcome());
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
